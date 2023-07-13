@@ -7,7 +7,7 @@ import './Navbar.css';
 const NavBar = () => {
   return (
     <Navbar bg="dark" expand="lg">
-      <Navbar.Brand as={Link} to="/s">
+      <Navbar.Brand as={Link} to="/admin">
         <img src={logo} alt="Logo" /> 
         <span>Admin Panel</span>
       </Navbar.Brand>
